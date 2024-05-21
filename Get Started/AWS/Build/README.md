@@ -33,7 +33,8 @@
   * inspect the current state
 * `terraform state list`
   * list the resources in your project's state
-
+* `terraform destroy`
+  * destroy all remote objects managed by Terraform
 
 # Notes
 * 'terraform.tfstate'
