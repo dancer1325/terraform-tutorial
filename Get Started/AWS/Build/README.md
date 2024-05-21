@@ -29,4 +29,15 @@
     * Problem1: " validating provider credentials: retrieving caller identity from STS: operation error STS: GetCallerIdentity"
       * Attempt1: Add 'credential files' authentication
       * Solution: Adjust aws.version 
-* TODO:
+* `terraform show`
+  * inspect the current state
+* `terraform state list`
+  * list the resources in your project's state
+
+
+# Notes
+* 'terraform.tfstate'
+  * store sensitive information
+  * recommendations
+    * restrictive access to this file
+    * store the state remotely -- '../Fundamentals/HCP Terraform/Migrate state' --
