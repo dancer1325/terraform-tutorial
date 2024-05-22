@@ -28,7 +28,7 @@
   * Problems:
     * Problem1: " validating provider credentials: retrieving caller identity from STS: operation error STS: GetCallerIdentity"
       * Attempt1: Add 'credential files' authentication
-      * Solution: Adjust aws.version 
+      * Solution: Adjust aws.version & `terraform init -upgrade`
 * `terraform show`
   * inspect the current state
 * `terraform state list`
